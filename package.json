@@ -1,0 +1,25 @@
+{
+  "name": "gamecollectorapi",
+  "version": "0.0.5",
+  "private": true,
+  "description": "GameCollector Api REST v5",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "lodash": "^4.17.5",
+    "shortid": "^2.2.8",
+    "swagger-express-mw": "^0.1.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "lint": "node_modules/.bin/eslint api/** app.js"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0"
+  }
+}
